@@ -1,3 +1,4 @@
+```javascript
 createCanvas(w, h);
 
 ellipse(x, y, w, h);
@@ -23,3 +24,4 @@ print(s);
 random(max);
 
 second();
+```
