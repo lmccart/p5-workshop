@@ -21,8 +21,15 @@ Explore the creative potential of networked, shareable art in this introduction 
   3. Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
 
 4. __Tutorial: Basic drawing.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip).
-5. __Tutorial: Variables.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
-6. __Studio: Create a self portrait.__
+5. __Discussion: context.__
+  * A few references: [Sol LeWitt](https://en.wikipedia.org/wiki/Sol_LeWitt), [Yoko Ono](https://monoskop.org/images/2/2a/Ono_Yoko_Grapefruit_A_Book_of_Instructions_and_Drawings_by_Yoko_Ono_S_and_S_edition_excerpt.pdf) and other [instruction artists](http://www.e-flux.com/projects/do_it/notes/essay/e002_text.html), Casey Reas Eyeo2012 talk on [Chance Operations](https://vimeo.com/45851523).
+  * What is programming?
+  * What is Processsing and p5.js?
+  * What is happening with the browser?
+  * What is happening with the browser?
+  * What can you make? Some [incomplete ispiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md).
+6. __Tutorial: Variables.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
+7. __Studio: Create a self portrait.__
   
 
 ###Tuesday - Play it.
