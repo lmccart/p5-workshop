@@ -43,9 +43,10 @@ Explore the creative potential of networked, shareable art in this introduction 
 ###Wednesday - Where are you?
 
 0. __Review: Games.__
-1. __Tutorial: Media.__
-2. __Tutorial: Geolocation.__
-3. __Studio: Make a location-based artwork.__
+1. __Discussion: FTP.__
+2. __Tutorial: Media.__
+3. __Tutorial: Geolocation.__
+4. __Studio: Make a location-based artwork.__
 
 ###Thursday - Take it further.
 
@@ -56,7 +57,8 @@ Explore the creative potential of networked, shareable art in this introduction 
 ###Friday - Wrap it up.
 
 0. __Studio: Final projects.__ Work on final projects, individual crits and tutorial.
-1. Final review, wrap-up, next steps.
+1. __Discussion: p5 community.__
+2. Final review, wrap-up, next steps.
 
 
 ##Resources
