@@ -17,3 +17,13 @@ Explore the creative potential of networked, shareable art in this introduction 
 ###Thursday
 
 ###Friday
+
+
+
+##Resources
+
+* [p5js.org](http://p5js.org) - p5.js website, includes library, reference, examples, and tutorials
+* [p5.js forum](https://forum.processing.org/two/) - good place for p5.js programming question
+* [Getting Started with p5.js](https://www.amazon.com/Make-Interactive-Graphics-JavaScript-Processing/dp/1457186772) - by Lauren McCarthy, Casey Reas, and Ben Fry, O'Reilly 2016
+* [Intro to programming for the visual arts with p5.js](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js/info) - online class from kadenze, free with sign up
+* [Additional resources page](https://github.com/ITPNYU/ICM-2015/wiki/Resources)
