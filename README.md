@@ -11,8 +11,8 @@ Explore the creative potential of networked, shareable art in this introduction 
 1. __Intro.__ Meet and greet, workshop overview, objectives.
 2. __Drawing Instructions.__ An exercise inspired by the [Conditional Design group](http://conditionaldesign.org/). Read their [manifesto](http://conditionaldesign.org/manifesto/) and check out the [archive](http://conditionaldesign.org/archive/) of instructions and drawings. Check out [knots](http://conditionaldesign.org/workshops/knots/), [hatching](http://conditionaldesign.org/workshops/hatching/), and [convex city plan](http://conditionaldesign.org/workshops/convex-city-plan/).
 
-  1. Break into partners. As a team, devise a set of instructions to create a drawing. Write out the instructions on paper provided.
-  2. Switch instructions with another pair. You create a drawing based on their instructions, and they create a drawing based on yours.
+  * Break into partners. As a team, devise a set of instructions to create a drawing. Write out the instructions on paper provided.
+  * Switch instructions with another pair. You create a drawing based on their instructions, and they create a drawing based on yours.
   
 3. __Playing around.__
 
@@ -28,6 +28,7 @@ Explore the creative potential of networked, shareable art in this introduction 
   * What is happening with the browser?
   * What is happening with the browser?
   * What can you make? Some [incomplete ispiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md).
+
 6. __Tutorial: Variables.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
 7. __Studio: Create a self portrait.__
   
