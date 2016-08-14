@@ -8,13 +8,13 @@ Explore the creative potential of networked, shareable art in this introduction 
 ##Schedule
 
 ###Monday
-* Introductions, overview, objectives.
-* Drawing Instructions. An exercise inspired by the [Conditional Design group](http://conditionaldesign.org/). Read their [manifesto](http://conditionaldesign.org/manifesto/) and check out the [archive](http://conditionaldesign.org/archive/) of instructions and drawings. Check out [knots](http://conditionaldesign.org/workshops/knots/), [hatching](http://conditionaldesign.org/workshops/hatching/), and [convex city plan](http://conditionaldesign.org/workshops/convex-city-plan/).
+1. __Intro.__ Meet and greet, workshop overview, objectives.
+2. __Drawing Instructions.__ An exercise inspired by the [Conditional Design group](http://conditionaldesign.org/). Read their [manifesto](http://conditionaldesign.org/manifesto/) and check out the [archive](http://conditionaldesign.org/archive/) of instructions and drawings. Check out [knots](http://conditionaldesign.org/workshops/knots/), [hatching](http://conditionaldesign.org/workshops/hatching/), and [convex city plan](http://conditionaldesign.org/workshops/convex-city-plan/).
 
   1. Break into partners. As a team, devise a set of instructions to create a drawing. Write out the instructions on paper provided.
   2. Switch instructions with another pair. You create a drawing based on their instructions, and they create a drawing based on yours.
   
-* Playing around.
+3. __Playing around.__
 
   1. Download the [p5.js editor](http://p5js.org/download/).
   2. Try adding some of the lines of code from the list below into the places where it says `setup()` and `draw()`. Press the play button to run your code.
