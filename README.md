@@ -7,7 +7,7 @@ Explore the creative potential of networked, shareable art in this introduction 
 
 ##Schedule
 
-###Monday - Hello World
+###Monday - Hello world.
 1. __Intro.__ Meet and greet, workshop overview, objectives.
 2. __Drawing Instructions.__ An exercise inspired by the [Conditional Design group](http://conditionaldesign.org/). Read their [manifesto](http://conditionaldesign.org/manifesto/) and check out the [archive](http://conditionaldesign.org/archive/) of instructions and drawings. Check out [knots](http://conditionaldesign.org/workshops/knots/), [hatching](http://conditionaldesign.org/workshops/hatching/), and [convex city plan](http://conditionaldesign.org/workshops/convex-city-plan/).
 
@@ -22,32 +22,33 @@ Explore the creative potential of networked, shareable art in this introduction 
 
 4. __Tutorial: Basic drawing.__
 5. __Tutorial: Variables.__
-6. __Studio.__ Create a self portrait.
+6. __Studio: Create a self portrait.__
   
 
-###Tuesday - Play It
+###Tuesday - Play it.
 
 0. __Review: Self portraits.__
 1. __Tutorial: Animation.__
 2. __Tutorial: Interaction.__
-3. __Studio.__ Make a game.
+3. __Studio: Make a game.__
 
 ###Wednesday - Where are you?
 
 0. __Review: Games.__
 1. __Tutorial: Media.__
 2. __Tutorial: Geolocation.__
-3. __Studio.__ Make a location-based artwork.
+3. __Studio: Make a location-based artwork.__
 
-###Thursday
+###Thursday - Take it further.
 
 0. __Review: Location-based pieces.__
 1. __Tutorial: Functions.__
-2. __Studio__ Work on final projects, individual crits and tutorial.
+2. __Studio: Final projects.__ Work on final projects, individual crits and tutorial.
 
-###Friday
-0. __Studio__ Work on final projects, individual crits and tutorial.
-1. Final review and wrap-up
+###Friday - Wrap it up.
+
+0. __Studio: Final projects.__ Work on final projects, individual crits and tutorial.
+1. Final review, wrap-up, next steps.
 
 
 ##Resources
