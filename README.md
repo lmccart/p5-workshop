@@ -16,9 +16,9 @@ Explore the creative potential of networked, shareable art in this introduction 
   
 3. __Playing around.__
 
-  1. Download the [p5.js editor](http://p5js.org/download/).
-  2. Try adding some of the lines of code from [this list](https://github.com/lmccart/p5-workshop/blob/master/commands.md) into the places where it says `setup()` and `draw()`. Press the play button to run your code.
-  3. Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
+  * Download the [p5.js editor](http://p5js.org/download/).
+  * Try adding some of the lines of code from [this list](https://github.com/lmccart/p5-workshop/blob/master/commands.md) into the places where it says `setup()` and `draw()`. Press the play button to run your code.
+  * Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
 
 4. __Tutorial: Basic drawing.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip).
 5. __Discussion: context.__
