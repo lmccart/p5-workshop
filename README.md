@@ -19,6 +19,7 @@ Explore the creative potential of networked, shareable art in this introduction 
   1. Download the [p5.js editor](http://p5js.org/download/).
   2. Try adding some of the lines of code from the list below into the places where it says `setup()` and `draw()`. Press the play button to run your code.
   3. Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
+  
 
 
   ```
