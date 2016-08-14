@@ -13,6 +13,40 @@ Explore the creative potential of networked, shareable art in this introduction 
 
   1. Break into partners. As a team, devise a set of instructions to create a drawing. Write out the instructions on paper provided.
   2. Switch instructions with another pair. You create a drawing based on their instructions, and they create a drawing based on yours.
+  
+3. Playing around.
+
+  1. Download the [p5.js editor](http://p5js.org/download/).
+  2. Try adding some of the lines of code from the list below into the places where it says `setup()` and `draw()`. Press the play button to run your code.
+  3. Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
+
+  ```
+createCanvas(w, h);
+
+ellipse(x, y, w, h);
+
+rect(x, y, w, h);
+
+line(x1, y1, x2, y2);
+
+triangle(x1, y1, x2, y2, x3, y3);
+
+fill(g);
+
+fill(r, g, b, a);
+
+stroke(r, g, b, a);
+
+strokeWeight(weight);
+
+background(r, g, b, a);
+
+print(s);
+
+random(max);
+
+second();
+```
 
 ###Tuesday
 
