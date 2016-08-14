@@ -20,15 +20,15 @@ Explore the creative potential of networked, shareable art in this introduction 
   2. Try adding some of the lines of code from [this list](https://github.com/lmccart/p5-workshop/blob/master/commands.md) into the places where it says `setup()` and `draw()`. Press the play button to run your code.
   3. Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
 
-4. __Tutorial: Basic drawing.__
-5. __Tutorial: Variables.__
+4. __Tutorial: Basic drawing.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip).
+5. __Tutorial: Variables.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
 6. __Studio: Create a self portrait.__
   
 
 ###Tuesday - Play it.
 
 0. __Review: Self portraits.__
-1. __Tutorial: Animation.__
+1. __Tutorial: Animation.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
 2. __Tutorial: Interaction.__
 3. __Studio: Make a game.__
 
