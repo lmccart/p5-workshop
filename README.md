@@ -74,3 +74,6 @@ Explore the creative potential of networked, shareable art in this introduction 
 * [Getting Started with p5.js](https://www.amazon.com/Make-Interactive-Graphics-JavaScript-Processing/dp/1457186772) - by Lauren McCarthy, Casey Reas, and Ben Fry, O'Reilly 2016
 * [Intro to programming for the visual arts with p5.js](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js/info) - online class from kadenze, free with sign up
 * [Additional resources page](https://github.com/ITPNYU/ICM-2015/wiki/Resources)
+
+## Web Hosting Options
+* [Dreamhost](https://www.dreamhost.com/promo/dreamsavings50/) - promo $50/off year
