@@ -27,14 +27,17 @@ Explore the creative potential of networked, shareable art in this introduction 
   * What is Processsing and p5.js?
   * What is happening with the browser?
   * What can you make? Some [incomplete ispiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md).
-
 6. __Tutorial: Variables__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
-7. __Studio: Create a self portrait__
+7. __Studio: Found object__ 
+  * Go for a walk around the ranch and surrounding area and find an object that intrigues or inspires you.
+  * Replicate it with code. It can be as realistic or abstract as you like.
+  * Include one element that is different each time you load the sketch.
+  * Include one element that changes as you move the mouse.
   
 
-###Tuesday - Play it.
+###Tuesday - Play it
 
-0. __Review: Self portraits__
+0. __Review: Found objects__
 1. __Tutorial: Animation__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
 2. __Tutorial: Interaction__
 3. __Studio: Make a game__
@@ -47,13 +50,13 @@ Explore the creative potential of networked, shareable art in this introduction 
 3. __Tutorial: Geolocation__
 4. __Studio: Make a location-based artwork__
 
-###Thursday - Take it further.
+###Thursday - Take it further
 
 0. __Review: Location-based pieces__
 1. __Tutorial: Functions__
 2. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
 
-###Friday - Wrap it up.
+###Friday - Wrap it up
 
 0. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
 1. __Discussion: p5 community__
