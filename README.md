@@ -27,7 +27,7 @@ Explore the creative potential of networked, shareable art in this introduction 
   * Try adding some of the lines of code from [this list](https://github.com/lmccart/p5-workshop/blob/master/commands.md) into the places where it says `setup()` and `draw()`. Press the play button to run your code.
   * Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
 
-5. __Tutorial: Basic drawing__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip).
+5. __Tutorial: Basic drawing__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip). More walk through examples [here](http://p5js.org/home/).
 
 6. __Tutorial: Variables__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
 
