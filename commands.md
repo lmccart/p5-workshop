@@ -21,6 +21,8 @@ background(r, g, b, a);
 
 print(s);
 
+// these ones get put inside of other functions above, as replacements for the letters
+
 random(max);
 
 second();
