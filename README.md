@@ -7,57 +7,56 @@ Explore the creative potential of networked, shareable art in this introduction 
 
 ##Schedule
 
-###Monday - Hello world.
-1. __Intro.__ Meet and greet, workshop overview, objectives.
-2. __Drawing Instructions.__ An exercise inspired by the [Conditional Design group](http://conditionaldesign.org/). Read their [manifesto](http://conditionaldesign.org/manifesto/) and check out the [archive](http://conditionaldesign.org/archive/) of instructions and drawings. Check out [knots](http://conditionaldesign.org/workshops/knots/), [hatching](http://conditionaldesign.org/workshops/hatching/), and [convex city plan](http://conditionaldesign.org/workshops/convex-city-plan/).
+###Monday - Hello world
+1. __Intro__ Meet and greet, workshop overview, objectives.
+2. __Drawing Instructions__ An exercise inspired by the [Conditional Design group](http://conditionaldesign.org/). Read their [manifesto](http://conditionaldesign.org/manifesto/) and check out the [archive](http://conditionaldesign.org/archive/) of instructions and drawings. Check out [knots](http://conditionaldesign.org/workshops/knots/), [hatching](http://conditionaldesign.org/workshops/hatching/), and [convex city plan](http://conditionaldesign.org/workshops/convex-city-plan/).
 
   * Break into partners. As a team, devise a set of instructions to create a drawing. Write out the instructions on paper provided.
   * Switch instructions with another pair. You create a drawing based on their instructions, and they create a drawing based on yours.
   
-3. __Playing around.__
+3. __Playing around__
 
   * Download the [p5.js editor](http://p5js.org/download/).
   * Try adding some of the lines of code from [this list](https://github.com/lmccart/p5-workshop/blob/master/commands.md) into the places where it says `setup()` and `draw()`. Press the play button to run your code.
   * Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
 
-4. __Tutorial: Basic drawing.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip).
-5. __Discussion: context.__
+4. __Tutorial: Basic drawing__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip).
+5. __Discussion: context__
   * A few references: [Sol LeWitt](https://en.wikipedia.org/wiki/Sol_LeWitt), [Yoko Ono](https://monoskop.org/images/2/2a/Ono_Yoko_Grapefruit_A_Book_of_Instructions_and_Drawings_by_Yoko_Ono_S_and_S_edition_excerpt.pdf) and other [instruction artists](http://www.e-flux.com/projects/do_it/notes/essay/e002_text.html), Casey Reas Eyeo2012 talk on [Chance Operations](https://vimeo.com/45851523).
   * What is programming?
   * What is Processsing and p5.js?
   * What is happening with the browser?
-  * What is happening with the browser?
   * What can you make? Some [incomplete ispiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md).
 
-6. __Tutorial: Variables.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
-7. __Studio: Create a self portrait.__
+6. __Tutorial: Variables__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
+7. __Studio: Create a self portrait__
   
 
 ###Tuesday - Play it.
 
-0. __Review: Self portraits.__
-1. __Tutorial: Animation.__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
-2. __Tutorial: Interaction.__
-3. __Studio: Make a game.__
+0. __Review: Self portraits__
+1. __Tutorial: Animation__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
+2. __Tutorial: Interaction__
+3. __Studio: Make a game__
 
 ###Wednesday - Where are you?
 
-0. __Review: Games.__
-1. __Discussion: FTP.__
-2. __Tutorial: Media.__
-3. __Tutorial: Geolocation.__
-4. __Studio: Make a location-based artwork.__
+0. __Review: Games__
+1. __Discussion: FTP__
+2. __Tutorial: Media__
+3. __Tutorial: Geolocation__
+4. __Studio: Make a location-based artwork__
 
 ###Thursday - Take it further.
 
-0. __Review: Location-based pieces.__
-1. __Tutorial: Functions.__
-2. __Studio: Final projects.__ Work on final projects, individual crits and tutorial.
+0. __Review: Location-based pieces__
+1. __Tutorial: Functions__
+2. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
 
 ###Friday - Wrap it up.
 
-0. __Studio: Final projects.__ Work on final projects, individual crits and tutorial.
-1. __Discussion: p5 community.__
+0. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
+1. __Discussion: p5 community__
 2. Final review, wrap-up, next steps.
 
 
