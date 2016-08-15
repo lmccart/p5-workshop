@@ -14,20 +14,20 @@ Explore the creative potential of networked, shareable art in this introduction 
   * Break into partners. As a team, devise a set of instructions to create a drawing. Write out the instructions on paper provided.
   * Switch instructions with another pair. You create a drawing based on their instructions, and they create a drawing based on yours.
   
-3. __Playing around__
-
-  * Download the [p5.js editor](http://p5js.org/download/).
-  * Try adding some of the lines of code from [this list](https://github.com/lmccart/p5-workshop/blob/master/commands.md) into the places where it says `setup()` and `draw()`. Press the play button to run your code.
-  * Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
-
-4. __Tutorial: Basic drawing__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip).
-
-5. __Discussion: context__
+3. __Discussion: context__
   * A few references: [Sol LeWitt](https://en.wikipedia.org/wiki/Sol_LeWitt), [Yoko Ono](https://monoskop.org/images/2/2a/Ono_Yoko_Grapefruit_A_Book_of_Instructions_and_Drawings_by_Yoko_Ono_S_and_S_edition_excerpt.pdf) and other [instruction artists](http://www.e-flux.com/projects/do_it/notes/essay/e002_text.html), Casey Reas Eyeo2012 talk on [Chance Operations](https://vimeo.com/45851523).
   * What is programming?
   * What is Processsing and p5.js?
   * What is happening with the browser?
   * What can you make? Some [incomplete ispiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md).
+
+4. __Playing around__
+
+  * Download the [p5.js editor](http://p5js.org/download/).
+  * Try adding some of the lines of code from [this list](https://github.com/lmccart/p5-workshop/blob/master/commands.md) into the places where it says `setup()` and `draw()`. Press the play button to run your code.
+  * Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
+
+5. __Tutorial: Basic drawing__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip).
 
 6. __Tutorial: Variables__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
 
