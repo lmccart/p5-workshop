@@ -1,6 +1,3 @@
-// Learning Processing
-// Daniel Shiffman
-// http://www.learningprocessing.com
 
 // Example 1-1: stroke and fill
 
