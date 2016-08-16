@@ -142,19 +142,9 @@ A very incomplete listing to get you started browsing further.
 * http://www.onebuttongames.com/
 * http://itch.io/jam/flappyjam
 * http://jams.gamejolt.io/1button/games
-* [Canabalt](http://adamatomic.com/canabalt/)
-* [Spinball](http://gamejolt.com/games/spinball/32897)
-* [Geometry Dash](http://www.plonga.com/skill/Reaction/Geometry-Dash-Online)
 * [Flappy Bird](http://flappybird.io/)
-* [Crossy Road](http://crossyroad-online.com/crossy-road-online/)
-* [Pancake](https://www.youtube.com/watch?v=0x7-RiIQaKk)
-* [Fotonica](https://www.youtube.com/watch?v=A6MnvFGUMMI)
-* [themashing](https://twitter.com/davelynch/status/647344140422893568)
 * [Coming Out Simulator](http://ncase.me/cos/)
 * [#Fortune](http://www.fortune.ly/presskit/index.html)
-* http://inception.davepedu.com/noflash.php
-* https://airhorner.com/
 * [Black Friday Simulator](http://ettubrutesbro.github.io/#blkfriday)
 * Reddit April Fools Button - [verge](http://www.theverge.com/2015/6/9/8749897/reddit-april-fools-the-button-experiment-end), [business insider](http://www.businessinsider.com/reddit-april-fools-joke-the-button-2015-4)
-* [one click conversations](https://emshort.wordpress.com/2010/10/08/gdc-marleigh-norton-conversation-interfaces/)
-* http://www.nowdothis.com/
+* [Zach Gage](https://www.stfj.net/index2.php?year=2016&project=art/2016/Talk%20-%20The%2030%20Year%20Game)
