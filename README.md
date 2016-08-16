@@ -40,8 +40,8 @@ Explore the creative potential of networked, shareable art in this introduction 
 
 ###Tuesday - Play it
 
-0. Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
-1. __Review: Found objects__
+0. __Review: Found objects__
+1. Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
 2. __Tutorial: Logic I - if__ With a partner, make inverse programs.
 2. __Tutorial: Logic II - animation__ Add an element of timing to your found object piece.
 3. __Tutorial: Logic III - interactivity__ Make a sketch with two inputs (ex: a rollover button and a clickable button, or a keypress and a mouse click)
