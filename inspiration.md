@@ -140,11 +140,10 @@ A very incomplete listing to get you started browsing further.
 
 ### Games
 * http://www.onebuttongames.com/
-* http://itch.io/jam/flappyjam
 * http://jams.gamejolt.io/1button/games
-* [Flappy Bird](http://flappybird.io/)
-* [Coming Out Simulator](http://ncase.me/cos/)
+* [Coming Out Simulator](http://ncase.me/cos/), Nicky Case
 * [#Fortune](http://www.fortune.ly/presskit/index.html)
-* [Black Friday Simulator](http://ettubrutesbro.github.io/#blkfriday)
 * Reddit April Fools Button - [verge](http://www.theverge.com/2015/6/9/8749897/reddit-april-fools-the-button-experiment-end), [business insider](http://www.businessinsider.com/reddit-april-fools-joke-the-button-2015-4)
 * [Zach Gage](https://www.stfj.net/index2.php?year=2016&project=art/2016/Talk%20-%20The%2030%20Year%20Game)
+* [Lawrence](http://twentycapitalletters.com/Lawrence), S.L.Clark
+* [Slam City Oracles](http://slamcityoracles.com/), Jane Friedhoff
