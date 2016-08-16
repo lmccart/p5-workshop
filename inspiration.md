@@ -156,4 +156,6 @@ A very incomplete listing to get you started browsing further.
 * Paolo Pedercini, "radical games", http://www.molleindustria.org
 * "Royals" by Asher Vollmer: https://ashervo.itch.io/royals, fun to play!! download and try it out
 * "Gone Home", http://gonehome.game
+* "Dear Esther", http://dear-esther.com
+* "Katamari Damacy" https://www.youtube.com/watch?v=cwhFH75OCDs
 
