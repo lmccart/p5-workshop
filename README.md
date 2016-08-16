@@ -46,7 +46,7 @@ Explore the creative potential of networked, shareable art in this introduction 
 2. __Tutorial: Logic II - animation__ Add an element of timing to your found object piece.
 3. __Tutorial: Logic III - interactivity__ Make a sketch with two inputs (ex: a rollover button and a clickable button, or a keypress and a mouse click)
 4. __Studio: Brainstorm games__
- * Concept: Using what you've learned so far, come up with a simple single player game. [Here is some inspiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md#games).
+ * Concept: Using what you've learned so far, come up with a simple single player game. Try to keep the mechanic and interaction as simple as possible to start out. [Here is some inspiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md#games).
  * Mechanics:
     * What is the goal? What does the user do?
     * How do you win or finish? (OR DO YOU)
