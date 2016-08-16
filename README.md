@@ -47,14 +47,14 @@ Explore the creative potential of networked, shareable art in this introduction 
 3. __Tutorial: Logic III - interactivity__ Make a sketch with two inputs (ex: a rollover button and a clickable button, or a keypress and a mouse click)
 4. __Studio: Brainstorm games__
  * Basic concept:
-  * What is the goal? What does the user do?
-  * How do you win or finish? (OR DO YOU)
+   * What is the goal? What does the user do?
+   * How do you win or finish? (OR DO YOU)
  * Details:
-  * How do you detect if the player is achieving the goal?
-  * How do you communicate to the player how they are doing?
-  * What are the different “states”? Are there levels? Just a playing mode vs gameover mode?
-  * Is there timing involved?
-  * What are the different mini problems you will need to tackle to put this together?
+   * How do you detect if the player is achieving the goal?
+   * How do you communicate to the player how they are doing?
+   * What are the different “states”? Are there levels? Just a playing mode vs gameover mode?
+   * Is there timing involved?
+   * What are the different mini problems you will need to tackle to put this together?
 
 5. __Studio: Paper prototype games__ Find a way to create some kind of paper prototype that you can test with others. Try to represent the different elements that come into play at different event times.
 6. __Tutorial: Logic III - state__
