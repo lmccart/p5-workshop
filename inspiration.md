@@ -148,6 +148,7 @@ A very incomplete listing to get you started browsing further.
 * [Lawrence](http://twentycapitalletters.com/Lawrence), S.L.Clark
 * [Slam City Oracles](http://slamcityoracles.com/), Jane Friedhoff
 * Old Atari games emulators: https://archive.org/details/atari_2600_library
+* "Hot Date", by George Batchelor https://georgebatch.itch.io/hot-date
 * "Nidhogg" by Mark Essen: http://messhof.com
 * UCLA GAME LAB GAMES:
 *"Juggle" by Christian Gimber: http://games.ucla.edu/game/juggle/
