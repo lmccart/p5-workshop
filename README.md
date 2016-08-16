@@ -82,6 +82,9 @@ Explore the creative potential of networked, shareable art in this introduction 
 2. Final review, wrap-up, next steps.
 
 
+##Work
+* [Projects showcase](https://lmccart.github.io/p5-workshop/)
+
 ##Resources
 
 * [p5js.org](http://p5js.org) - p5.js website, includes library, reference, examples, and tutorials
