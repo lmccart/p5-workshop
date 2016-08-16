@@ -20596,7 +20596,6 @@ p5.prototype.saveTable = function (table, filename, options) {
  *  @private
  */
 p5.prototype.writeFile = function (dataToDownload, filename, extension) {
-    console.log(extension)
   var type = 'application\/octet-stream';
   if (p5.prototype._isSafari()) {
     type = 'text\/plain';
@@ -20605,8 +20604,6 @@ p5.prototype.writeFile = function (dataToDownload, filename, extension) {
     'type': type
   });
   var href = window.URL.createObjectURL(blob);
-
-  console.log(href)
   p5.prototype.downloadFile(href, filename, extension);
 };
 
@@ -21961,7 +21958,6 @@ p5.TableRow.prototype.getNum = function(column) {
  *  @return {String}  String
  */
 p5.TableRow.prototype.getString = function(column) {
-    console.log(column)
   if (typeof(column) === 'string'){
     return this.obj[column].toString();
   } else {
