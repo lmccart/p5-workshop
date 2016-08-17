@@ -72,13 +72,23 @@ Explore the creative potential of networked, shareable art in this introduction 
  * State variable as level
 1. __Studio: Build games__
 2. __Tutorial: Media__  Download [media examples](https://github.com/lmccart/p5-workshop/raw/master/05_media/05_media.zip).
+ * Images
+ * Text
+ * Sound
 3. __Tutorial: Functions__  Download [functions examples](https://github.com/lmccart/p5-workshop/raw/master/05_functions/05_functions.zip).
-4. __Studio: Make a location-based artwork__
+ * Functions that calculate.
+ * Functions that draw.
+ * Functions with parameters.
+4. __Studio: Make a location-based artwork__ For this project we will be making a location-based artwork to be used around Anderson Ranch. Here is some [geolocative art inspiration]().
+ * On your mobile phone, go to this url: https://lmccart.github.io/p5-workshop/geo/. Be sure to allow location services.
+ * Walk around the ranch and surrounding areas with your notebook. Note interesting locations, and record the lat/lon at that location, and a short description. Start thinking about what you might like to see at each location, and a general concept for the piece.
+ * Flesh out your concept and sketch what you will see/hear/etc at each location on paper. How will people know to find each location? Will they wander and stumble, will your piece direct them, or will they carry an accompanying map?
+ * Begin to sketch the different location views in code. You can make a separate sketch for each.
+ * Finally, you will put them all together in one piece.
 
 ###Thursday - Take it further
 
-0. __Review: Location-based pieces__
-1. __Tutorial: Functions__
+0. __Studio: Location-based pieces__
 2. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
 
 ###Friday - Wrap it up
