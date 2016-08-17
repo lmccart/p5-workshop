@@ -160,3 +160,8 @@ A very incomplete listing to get you started browsing further.
 * "Dear Esther", http://dear-esther.com
 * "Katamari Damacy" https://www.youtube.com/watch?v=cwhFH75OCDs
 
+### Locative
+* [Walks](http://www.cardiffmiller.com/artworks/walks/index.html), Janet Cardiff and George Bures Miller
+* [Secret City](http://www.benmoren.com/projects/secret-city/), Ben Moren
+* [Rogue Augmented Reality](http://www.sndrv.nl/moma/)
+* [The Space Between Us](http://davidhorvitz.com/distance/), David Horvitz
