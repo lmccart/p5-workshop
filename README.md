@@ -19,7 +19,7 @@ Explore the creative potential of networked, shareable art in this introduction 
   * What is programming?
   * What is Processsing and p5.js?
   * What is happening with the browser?
-  * What can you make? Some [incomplete ispiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md).
+  * What can you make? Some [incomplete ispiration](https://github.com/lmccart/p5-workshop/raw/master/inspiration.md).
 
 4. __Playing around__
 
@@ -27,9 +27,9 @@ Explore the creative potential of networked, shareable art in this introduction 
   * Try adding some of the lines of code from [this list](https://github.com/lmccart/p5-workshop/blob/master/commands.md) into the places where it says `setup()` and `draw()`. Press the play button to run your code.
   * Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
 
-5. __Tutorial: Basic drawing__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/01_drawing/01_drawing.zip). More walk through examples [here](http://p5js.org/home/).
+5. __Tutorial: Basic drawing__ Download examples [here](https://github.com/lmccart/p5-workshop/raw/master/01_drawing/01_drawing.zip). More walk through examples [here](http://p5js.org/home/).
 
-6. __Tutorial: Variables__ Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
+6. __Tutorial: Variables__ Download examples [here](https://github.com/lmccart/p5-workshop/raw/master/02_variables_animation/02_variables_animation.zip).
 
 7. __Studio: Found object__ 
   * Go for a walk around the ranch and surrounding area and find an object that intrigues or inspires you.
@@ -41,7 +41,7 @@ Explore the creative potential of networked, shareable art in this introduction 
 ###Tuesday - Play it
 
 0. __Review: Found objects__
-1. Download examples [here](https://github.com/lmccart/p5-workshop/blob/master/02_variables_animation/02_variables_animation.zip).
+1. Download examples [here](https://github.com/lmccart/p5-workshop/raw/master/02_variables_animation/02_variables_animation.zip).
 2. __Tutorial: Logic I - if__ With a partner, make inverse programs.
 2. __Tutorial: Logic II - animation__ Add an element of timing to your found object piece.
 3. __Tutorial: Logic III - interactivity__ Make a sketch with two inputs (ex: a rollover button and a clickable button, or a keypress and a mouse click)
@@ -64,9 +64,15 @@ Explore the creative potential of networked, shareable art in this introduction 
 
 ###Wednesday - Where are you?
 
-0. __Review: Games__
-2. __Tutorial: Media__
-3. __Tutorial: Geolocation__
+0. __Tutorial: Logic Review__ Download [logic examples](https://github.com/lmccart/p5-workshop/raw/master/04_logic/04_logic.zip).
+ * State variable as counter
+ * State variable as switch
+ * State variable as switch, with button
+ * State variable as toggle, with button
+ * State variable as level
+1. __Studio: Build games__
+2. __Tutorial: Media__  Download [media examples](https://github.com/lmccart/p5-workshop/raw/master/05_media/05_media.zip).
+3. __Tutorial: Functions__  Download [functions examples](https://github.com/lmccart/p5-workshop/raw/master/05_functions/05_functions.zip).
 4. __Studio: Make a location-based artwork__
 
 ###Thursday - Take it further
