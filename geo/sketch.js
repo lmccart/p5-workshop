@@ -37,8 +37,7 @@ function positionUpdated(position) {
 
 function touchStarted() {
   if (!area1) {
-    console.log('hi')
-    area1 = new geoFenceCircle(39.214, -106.937, 0.1);
+    area1 = new geoFenceCircle(39.214, -106.937, 0.01);
   } else {
     area1.clear();
     area1 = null;
