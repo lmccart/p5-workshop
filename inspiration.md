@@ -147,3 +147,16 @@ A very incomplete listing to get you started browsing further.
 * [Zach Gage](https://www.stfj.net/index2.php?year=2016&project=art/2016/Talk%20-%20The%2030%20Year%20Game)
 * [Lawrence](http://twentycapitalletters.com/Lawrence), S.L.Clark
 * [Slam City Oracles](http://slamcityoracles.com/), Jane Friedhoff
+* Old Atari games emulators: https://archive.org/details/atari_2600_library
+* "Hot Date", by George Batchelor https://georgebatch.itch.io/hot-date
+* "Nidhogg" by Mark Essen: http://messhof.com
+* UCLA GAME LAB GAMES:
+*"Juggle" by Christian Gimber: http://games.ucla.edu/game/juggle/
+*"Sneaky Cactus" by Nick Crockett: http://games.ucla.edu/game/sneaky-cactus/
+*"Perfect Woman" by Peter Lu: http://games.ucla.edu/game/perfect-woman/
+* Paolo Pedercini, "radical games", http://www.molleindustria.org
+* "Royals" by Asher Vollmer: https://ashervo.itch.io/royals, fun to play!! download and try it out
+* "Gone Home", http://gonehome.game
+* "Dear Esther", http://dear-esther.com
+* "Katamari Damacy" https://www.youtube.com/watch?v=cwhFH75OCDs
+

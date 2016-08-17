@@ -46,7 +46,7 @@ Explore the creative potential of networked, shareable art in this introduction 
 2. __Tutorial: Logic II - animation__ Add an element of timing to your found object piece.
 3. __Tutorial: Logic III - interactivity__ Make a sketch with two inputs (ex: a rollover button and a clickable button, or a keypress and a mouse click)
 4. __Studio: Brainstorm games__
- * Concept: Using what you've learned so far, come up with a simple single player game. [Here is some inspiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md#games).
+ * Concept: Using what you've learned so far, come up with a simple single player game. Try to keep the mechanic and interaction as simple as possible to start out. [Here is some inspiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md#games).
  * Mechanics:
     * What is the goal? What does the user do?
     * How do you win or finish? (OR DO YOU)
@@ -57,7 +57,7 @@ Explore the creative potential of networked, shareable art in this introduction 
     * Is there timing involved?
     * What are the different mini problems you will need to tackle to put this together?
 
-5. __Studio: Paper prototype games__ Find a way to create some kind of paper prototype that you can test with others. Try to represent the different elements that come into play at different event times.
+5. __Studio: Paper prototype games__ Find a way to create some kind of paper prototype that you can test with others, or a storyboard that you can walk through with another person. Try to represent the different elements that come into play at different event times.
 6. __Tutorial: Logic III - state__
 7. __Studio: Build games__
 8. __Discussion: FTP__
@@ -81,6 +81,9 @@ Explore the creative potential of networked, shareable art in this introduction 
 1. __Discussion: p5 community__
 2. Final review, wrap-up, next steps.
 
+
+##Work
+* [Projects showcase](https://lmccart.github.io/p5-workshop/)
 
 ##Resources
 
