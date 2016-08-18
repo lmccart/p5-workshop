@@ -41,7 +41,7 @@ function draw() {
 function positionUpdated(position) {
   lat = nfc(position.latitude, 8);
   lon = nfc(position.longitude, 8);
-  print("lat: " + window. + " lon: " + lon);
+  print("lat: " + lat + " lon: " + lon);
 }
 
 function touchStarted() {
