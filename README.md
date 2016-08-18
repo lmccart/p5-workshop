@@ -85,10 +85,13 @@ Explore the creative potential of networked, shareable art in this introduction 
  * Flesh out your concept and sketch what you will see/hear/etc at each location on paper. How will people know to find each location? Will they wander and stumble, will your piece direct them, or will they carry an accompanying map?
  * Begin to sketch the different location views in code. You can make a separate sketch for each.
  * __Test Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocation.zip)__
+ * __Test GPS Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocationGPS.zip)__
 
 ###Thursday - Take it further
 
 0. __Studio: Location-based pieces__
+ * __Test Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocation.zip)__
+ * __Test GPS Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocationGPS.zip)__
 2. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
 
 ###Friday - Wrap it up
