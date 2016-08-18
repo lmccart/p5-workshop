@@ -9,7 +9,6 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  fullscreen();
   if (geoCheck() == true) {
     // geolocation is available
     print("connected!");
@@ -43,6 +42,11 @@ function positionUpdated(position) {
   lat = nfc(position.latitude, 8);
   lon = nfc(position.longitude, 8);
   print("lat: " + lat + " lon: " + lon);
+}
+
+function touchStarted() {
+  
+  fullscreen();
 }
 
 // function touchStarted() {
