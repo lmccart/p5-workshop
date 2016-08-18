@@ -8,6 +8,9 @@ function setup() {
   if (geoCheck() == true) {
     // geolocation is available
     print("connected!");
+    addFence(0, 0); // anywhere else
+    
+    // replace with your locations here
     addFence(39.2137056, -106.93653110); // printmaking
     addFence(39.21391712, -106.93599236); // woodshop
     addFence(39.21406986, -106.93579980); // ceramics
@@ -45,11 +48,13 @@ function draw() {
     text("photo", 50, 50);
   }
 
+  // add this in at the bottom
   checkLocations();
   drawButtons();
-  text(_lat+","+_lon+","+curLocation, 50, 250);
 }
 
+// add these methods
+// put any extra stuff in mousePressed into change location
 function mousePressed() {
   // this detects a click on the testing buttons
   detectButtonPress();

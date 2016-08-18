@@ -43,6 +43,9 @@ function checkLocations() {
       _closestL = i + 1;
     }
   }
+  if (!_closestL) {
+    _closestL = 1;
+  }
 
   if (_closestL && _closestL != curLocation) {
     curLocation = _closestL;
