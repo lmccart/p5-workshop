@@ -2,7 +2,7 @@ var fences = [];
 var newLocation = -1;
 
 function drawButtons() {
-  var s = width/15;
+  var s = width/10;
   var g = s/4;
   for (var i = 0; i < numLocations; i++) {
     push();

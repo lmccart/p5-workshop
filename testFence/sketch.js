@@ -16,6 +16,7 @@ function setup() {
 function draw() {
   background(127);
   textSize(30);
+  text(curLocation, 20, 20);
 
   if (curLocation == 1) {
     // draw view for location 1
