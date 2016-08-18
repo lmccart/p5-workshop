@@ -53,8 +53,9 @@ function draw() {
 function mousePressed() {
   // this detects a click on the testing buttons
   detectButtonPress();
+  changeLocation();
 }
 
-function resetLocation() {
+function changeLocation() {
   // do any cleanup here like stopping sounds or reseting variables
 }

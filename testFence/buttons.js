@@ -46,7 +46,7 @@ function checkLocations() {
 
   if (_closestL && _closestL != curLocation) {
     curLocation = _closestL;
-    resetLocation();
+    changeLocation();
   }
 }
 
