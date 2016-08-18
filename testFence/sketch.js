@@ -1,5 +1,5 @@
 var numLocations = 6; // set your total number of locations here
-var curLocation = 1;
+var curLocation = 0;
 
 
 
