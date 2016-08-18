@@ -33,19 +33,19 @@ function draw() {
   }
   textSize(windowWidth*0.15);
   text("LAT", width / 2, height * 0.32);
-  text(lat, width / 2, height * 0.42);
+  text(width, width / 2, height * 0.42);
   text("LON", width / 2, height * 0.57);
-  text(lon, width / 2, height * 0.67);
+  text(height, width / 2, height * 0.67);
 }
 
 function positionUpdated(position) {
   lat = nfc(position.latitude, 8);
   lon = nfc(position.longitude, 8);
-  print("lat: " + lat + " lon: " + lon);
+  print("lat: " + window. + " lon: " + lon);
 }
 
 function touchStarted() {
-  
+
   fullscreen();
 }
 
