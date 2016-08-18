@@ -1,8 +1,10 @@
-var numLocations = 5; // set your total number of locations here
+var numLocations = 4; // set your total number of locations here
 var curLocation = 1;
 
+
+
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(980, 1461);
 }
 
 function draw() {
