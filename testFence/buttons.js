@@ -2,6 +2,7 @@ var fences = [];
 var newLocation = -1;
 var _s;
 var _g;
+var _lat, _lon;
 
 function drawButtons() {
 
@@ -47,4 +48,12 @@ function checkLocations() {
       }
     }
   }
+}
+
+
+
+function positionUpdated(position) {
+  _lat = nfc(position.latitude, 8);
+  _lon = nfc(position.longitude, 8);
+  print("lat: " + _lat + " lon: " + _lon);
 }
