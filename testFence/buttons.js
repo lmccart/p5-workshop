@@ -1,24 +1,28 @@
 var fences = [];
 var newLocation = -1;
+var _s;
+var _g;
 
 function drawButtons() {
-  var s = width/10;
-  var g = s/4;
+
+  _s = width/10;
+  _g = _s/4;
+  
   for (var i = 0; i < numLocations; i++) {
     push();
     fill(0);
-    rect(g + (s+g) * i, height - s-g, s, s);
+    rect(_g + (_s+_g) * i, height - _s-_g, _s, _s);
     fill(255);
-    textSize(s/2);
+    textSize(_s/2);
     textFont('Arial');
-    text(i + 1, 2*g + (s+g) * i, height - s/3 - g);
+    text(i + 1, 2*_g + (_s+_g) * i, height - _s/3 - _g);
     pop();
   }
 }
 
 function detectButtonPress() {
   for (var i = 0; i < numLocations; i++) {
-    if (mouseX > 10 + 35 * i && mouseX < 40 + 35 * i && mouseY > height - 40 && mouseY < height - 10) {
+    if (mouseX > _g + (_s+_g) * i && mouseX < _g + (_s+_g) * i + _s && mouseY > height - _s-_g && mouseY < height -_g) {
       curLocation = i + 1;
       print("curLocation = " + curLocation);
     }

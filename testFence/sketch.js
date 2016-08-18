@@ -31,7 +31,7 @@ function draw() {
     background(255, 0, 255);
     text("ceramics", 50, 50);
   } else if (curLocation == 4) {
-    background(100);
+    background(10, 230, 100);
     text("cafe", 50, 50);
   } else if (curLocation == 5) {
     background(100, 250, 200);
