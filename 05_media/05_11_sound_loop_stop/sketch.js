@@ -6,16 +6,10 @@ function preload() {
 
 function setup() {
   createCanvas(600, 600);
+  sound.loop();
 }
 
 function draw() {
   background(255);
-}
-
-function mousePressed() {
-  sound.loop();
-}
-
-function mouseReleased() {
-  sound.stop();
+  sound.setVolume(mouseX/width);
 }
