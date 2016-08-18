@@ -84,7 +84,7 @@ Explore the creative potential of networked, shareable art in this introduction 
  * Walk around the ranch and surrounding areas with your notebook. Note interesting locations, and record the lat/lon at that location, and a short description. Start thinking about what you might like to see at each location, and a general concept for the piece.
  * Flesh out your concept and sketch what you will see/hear/etc at each location on paper. How will people know to find each location? Will they wander and stumble, will your piece direct them, or will they carry an accompanying map?
  * Begin to sketch the different location views in code. You can make a separate sketch for each.
- * Finally, you will put them all together in one piece.
+ * __Test Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocation.zip)__
 
 ###Thursday - Take it further
 
