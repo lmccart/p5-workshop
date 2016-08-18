@@ -19,9 +19,7 @@ function preload() {
   img6 = loadImage("img5.jpg");
   img7 = loadImage("img6.jpg");
   img8 = loadImage("img7.jpg");
-  nature1 = loadSound("nature1.wav");
   nature2 = loadSound("nature2.wav");
-  nature3 = loadSound("nature3.wav");
   nature4 = loadSound("nature4.wav");
 }
 
@@ -315,41 +313,38 @@ function mousePressed() {
 function changeLocation() {
   // do any cleanup here like stopping sounds or reseting variables
 
-  nature1.stop();
   nature2.stop();
-  nature3.stop();
   nature4.stop();
 
   if (curLocation == 2) {
-    nature1.setVolume(0.7);
-    nature1.play();
+    nature4.setVolume(0.7);
+    nature4.play();
   } else if (curLocation == 3) {
     nature2.setVolume(0.7);
     nature2.play();
   } else if (curLocation == 4) {
-    nature3.setVolume(0.7);
-    nature3.play();
+    nature4.setVolume(0.7);
+    nature4.play();
   } else if (curLocation == 5) {
     nature4.setVolume(0.7);
     nature4.play();
   } else if (curLocation == 6) {
-    nature1.setVolume(0.7);
-    nature1.play();
+    nature2.play();
   } else if (curLocation == 7) {
+    nature4.setVolume(0.7);
+    nature4.play();
+  } else if (curLocation == 8) {
     nature2.setVolume(0.7);
     nature2.play();
-  } else if (curLocation == 8) {
-    nature3.setVolume(0.7);
-    nature3.play();
   } else if (curLocation == 9) {
     nature4.setVolume(0.7);
     nature4.play();
   } else if (curLocation == 10) {
-    nature1.setVolume(0.7);
-    nature1.play();
-  } else if (curLocation == 11) {
     nature2.setVolume(0.7);
     nature2.play();
+  } else if (curLocation == 11) {
+    nature4.setVolume(0.7);
+    nature4.play();
     // } else if (curLocation == 12) {
     //   nature3.setVolume(0.7);
     //   nature3.play();
