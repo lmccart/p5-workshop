@@ -14,7 +14,7 @@ function setup() {
     addFence(39.21427167, -106.93622730); // cafe
     addFence(39.21434363, -106.93645512); // meeting hall
     addFence(39.21360107, -106.93650356); // photo
-    getCurrentPosition(positionUpdated);
+    intervalCurrentPosition(positionUpdated, 1000);
   }
 }
 
