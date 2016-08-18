@@ -2,14 +2,16 @@ var fences = [];
 var newLocation = -1;
 
 function drawButtons() {
+  var s = width/15;
+  var g = s/4;
   for (var i = 0; i < numLocations; i++) {
     push();
     fill(0);
-    rect(10 + 35 * i, height - 40, 30, 30);
+    rect(g + (s+g) * i, height - s-g, s, s);
     fill(255);
-    textSize(12);
+    textSize(s/2);
     textFont('Arial');
-    text(i + 1, 22 + 35 * i, height - 20);
+    text(i + 1, 2*g + (s+g) * i, height - s/3 - g);
     pop();
   }
 }
