@@ -9,6 +9,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  fullscreen();
   if (geoCheck() == true) {
     // geolocation is available
     print("connected!");
