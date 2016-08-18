@@ -31,11 +31,7 @@ function detectButtonPress() {
 }
 
 function addFence(lat, lon) {
-  fences.push(new geoFenceCircle(39.2137056, -106.93653110, 0.01)); // printmaking
-  fences.push(new geoFenceCircle(39.21391712, -106.93599236, 0.01)); // woodshop
-  fences.push(new geoFenceCircle(39.21406986, -106.93579980, 0.01)); // ceramics
-  fences.push(new geoFenceCircle(39.21427167, -106.93622730, 0.01)); // cafe
-  fences.push(new geoFenceCircle(39.21434363, -106.93645512, 0.01)); // meeting hall
+  fences.push(new geoFenceCircle(lat, lon, 0.01)); // printmaking
 }
 
 function checkLocations() {
