@@ -1,20 +1,81 @@
-//Ball variables
+//Balls
+
 var showellipse = false;
 var showrect = false;
-var x1 = 0;
-var y1 = 0;
+
+//Redball
+
+function Ball(_speedx, _speedy) {
+
+  var ball = {
+    speedx: _speedx,
+    speedy: _speedy,
+    xreboundleft: -.3,
+    xreboundright: .5,
+    yreboundup: -.4,
+    yrebounddown: .4,
+    xcoordinateofmatchinghoop: 250,
+    ycoordinateofmatchinghoop: 100,
+    ballcolor: "red",
+    
+    x: 500,
+    y: 300,
+    following: false,
+    diameter: 30,
+    display: function() {
+      fill(this.ballcolor);
+      ellipse(this.x, this.y, this.diameter, this.diameter)
+    },
+    move: function() {
+      this.x = this.x + this.speedx
+      this.y = this.y + this.speedy
+
+      if ((this.x) > 1000) {
+        this.speedx = this.xreboundleft
+      } else if ((this.x) < 15) {
+        this.speedx = this.xreboundright
+      }
+      if ((this.y) > 750) {
+        this.speedy = this.yreboundup
+      } else if ((this.y) < 15) {
+        this.speedy = this.yrebounddown
+      }
+      if (this.following == true) {
+        this.x = mouseX;
+        this.y = mouseY;
+      }
+    },
+    checkPress: function() {
+      if (dist(mouseX, mouseY, this.x, this.y) < 15) {
+        this.following = true
+      }
+    },
+    checkRelease: function() {
+      if (dist(this.xcoordinateofmatchinghoop, this.ycoordinateofmatchinghoop, mouseX, mouseY) < 50 && (this.following == true)) {
+        this.speedy = 0;
+        this.speedx = 0
+      }
+      this.following = false
+    }
+  };
+
+  return ball;
+
+}
+
+
 var x2 = 0;
 var y2 = 0;
 var x3 = 0;
 var y3 = 0;
-var speedx1 = .2;
-var speedy1 = .2;
 var speedx2 = -.3;
 var speedy2 = .3;
 var speedx3 = -.25;
 var speedy3 = -.25;
 
 //Hoop variables
+
+//Hoop1 ()
 var showhoop1 = false;
 var showhoop2 = false;
 var showhoop3 = false;
@@ -27,21 +88,27 @@ var hy2 = 0;
 var hx2 = 0;
 var hy3 = 0;
 var hx3 = 0;
+var hoopwidth1 = 100;
+var hoopheight1 = 100;
+var hoopwidth10 = 70;
+var hoopheight10 = 70;
+var hoopwidth2 = 100;
+var hoopheight2 = 100;
+var hoopwidth20 = 70;
+var hoopheight20 = 70;
+var hoopwidth3 = 100;
+var hoopheight3 = 100;
+var hoopwidth30 = 70;
+var hoopheight30 = 70;
+var movingHoops = false;
+var expandingHoops = false;
 
 //Moving Balls
-var b1 = 0;
-var b2 = 0;
-var b3 = 0;
-var diffx = 0;
-var diffy = 0;
 var followingGreen = false;
-var followingRed = false;
 var followingBlue = false;
 
-//Hoops Opacity
-H1 = 0;
-H2 = 0;
-H3 = 0;
+var redball;
+var blueball;
 
 function setup() {
   createCanvas(1000, 700)
@@ -49,6 +116,9 @@ function setup() {
   redHoopColor = color(255);
   blueHoopColor = color(255);
   greenHoopColor = color(255);
+  
+  redball = new Ball(.2, .2);
+  blueball = new Ball();
 }
 
 function draw() {
@@ -66,10 +136,10 @@ function draw() {
     //Red Hoop
     //Exterior
     fill(redHoopColor);
-    ellipse(500 + hx1, 150 + hy1, 100, 100);
+    ellipse(500 + hx1, 150 + hy1, hoopwidth1, hoopheight1);
     //Interior
     fill(0);
-    ellipse(500 + hx1, 150 + hy1, 70, 70)
+    ellipse(500 + hx1, 150 + hy1, hoopwidth10, hoopheight10)
 
   }
 
@@ -82,10 +152,10 @@ function draw() {
     //Blue Hoop
     //Exterior
     fill(blueHoopColor);
-    ellipse(750 + hx2, 600 + hy2, 100, 100);
+    ellipse(750 + hx2, 600 + hy2, hoopwidth2, hoopheight2);
     //Interior
     fill(0);
-    ellipse(750 + hx2, 600 + hy2, 70, 70)
+    ellipse(750 + hx2, 600 + hy2, hoopwidth20, hoopheight20)
 
   }
 
@@ -98,10 +168,10 @@ function draw() {
     //Green Hoop
     //Exterior
     fill(greenHoopColor);
-    ellipse(250 + hx3, 100 + hy3, 100, 100)
+    ellipse(250 + hx3, 100 + hy3, hoopwidth3, hoopheight3)
       //Interior
     fill(0);
-    ellipse(250 + hx3, 100 + hy3, 70, 70)
+    ellipse(250 + hx3, 100 + hy3, hoopwidth30, hoopheight30)
 
   }
 
@@ -111,19 +181,21 @@ function draw() {
 
   if (showellipse == true) {
 
-    //Red Ball
-    fill(80, 225, 80);
-    ellipse(500 + x1, 300 + y1, 30 + b1, 30 + b1);
-    x1 = x1 + speedx1
-    y1 = y1 + speedy1
-      //Green Ball
-    fill(225, 80, 80);
-    ellipse(500 + x2, 300 + y2, 30 + b2, 30 + b2);
+    //Redball
+    redball.display();
+    redball.move();
+    
+    blueball.display();
+    blueball.move();
+
+    //Green Ball
+    fill(0, 255, 0);
+    ellipse(500 + x2, 300 + y2, 30, 30);
     x2 = x2 + speedx2
     y2 = y2 + speedy2
       //Blue Ball
     fill(80, 80, 225);
-    ellipse(500 + x3, 300 + y3, 30 + b3, 30 + b3)
+    ellipse(500 + x3, 300 + y3, 30, 30)
     x3 = x3 + speedx3
     y3 = y3 + speedy3
 
@@ -132,27 +204,8 @@ function draw() {
   }
 
   //Bouncing balls (do not go off screen)
-  //Green Ball
 
-  if ((500 + x1) > 1000) {
-    speedx1 = -.3
-  } else if ((500 + x1) < 15) {
-    speedx1 = .5
-
-  }
-
-  if ((300 + y1) > 750) {
-    speedy1 = -.4
-  } else if ((300 + y1) < 15) {
-    speedy1 = .4
-  }
-
-  if (followingGreen == true) {
-    x1 = mouseX - 500;
-    y1 = mouseY - 300;
-  }
-
-  //Red Ball 
+  //Green Ball 
 
   if ((500 + x2) > 1000) {
     speedx2 = -.5
@@ -167,7 +220,7 @@ function draw() {
     speedy2 = .8
   }
 
-  if (followingRed == true) {
+  if (followingGreen == true) {
     x2 = mouseX - 500;
     y2 = mouseY - 300;
   }
@@ -200,17 +253,75 @@ function draw() {
   }
 
   //Final Olympic Ring Finale
-  
-  if (speedx1 == 0 && speedx2 == 0 && speedx3 == 0) {
-    hy1 = -1;
-    hy2 = -1;
-    hy3 = +1
+
+  if (redball.speedx == 0 && speedx2 == 0 && speedx3 == 0) {
+    movingHoops = true
   }
+
+  if (movingHoops == true) {
+    if (hy1 != 150) {
+      hy1 = hy1 + 1;
+    }
+    if (hy2 != -300) {
+      hy2 = hy2 - 1;
+    }
+    if (hy3 != 200) {
+      hy3 = hy3 + 1;
+    }
+    showellipse = false
+  }
+
+
+  if (hy1 == 150 && hy2 == -300 && hy3 == 200) {
+    //Hoop1
+    if (hoopwidth1 != 300) {
+      hoopwidth1 = hoopwidth1 + 1
+    }
+    if (hoopheight1 != 300) {
+      hoopheight1 = hoopheight1 + 1
+    }
+    if (hoopwidth10 != 270) {
+      hoopwidth10 = hoopwidth10 + 1
+    }
+    if (hoopheight10 != 270) {
+      hoopheight10 = hoopheight10 + 1
+    }
+    //Hoop2
+    if (hoopwidth2 != 300) {
+      hoopwidth2 = hoopwidth2 + 1
+    }
+    if (hoopheight2 != 300) {
+      hoopheight2 = hoopheight2 + 1
+    }
+    if (hoopheight20 != 270) {
+      hoopwidth20 = hoopwidth20 + 1
+    }
+    if (hoopheight20 != 270) {
+      hoopheight20 = hoopheight20 + 1
+    }
+    //Hoop3
+    if (hoopwidth3 != 300) {
+      hoopwidth3 = hoopwidth3 + 1
+    }
+    if (hoopheight3 != 300) {
+      hoopheight3 = hoopheight3 + 1
+    }
+    if (hoopheight30 != 270) {
+      hoopwidth30 = hoopwidth30 + 1
+    }
+    if (hoopheight30 != 270) {
+      hoopheight30 = hoopheight30 + 1
+    }
+
+  }
+
 }
 
-//What happens when mouse is clicked or released 
+//Mouse pressed 
 
 function mousePressed() {
+
+  redball.checkPress();
 
   if (mouseX > 500 && mouseX < 530 && mouseY > 300 && mouseY < 330) {
     showellipse = true;
@@ -222,22 +333,18 @@ function mousePressed() {
     blueHoopColor = color(0, 0, 255)
   } else if (dist(mouseX, mouseY, 250, 100) < 50) {
     greenHoopColor = color(0, 255, 0)
-  }
-  //Balls follow mouse when mouse clicked
-  else if (dist(mouseX, mouseY, 500 + x1, 300 + y1) < 15) {
-    followingGreen = true
   } else if (dist(mouseX, mouseY, 500 + x2, 300 + y2) < 15) {
-    followingRed = true
+    followingGreen = true
   } else if (dist(mouseX, mouseY, 500 + x3, 300 + y3) < 15) {
     followingBlue = true
   }
 }
 
 function mouseReleased() {
-  if (dist(250, 100, mouseX, mouseY) < 50 && (followingGreen == true)) {
-    speedy1 = 0;
-    speedx1 = 0
-  } else if (dist(500, 150, mouseX, mouseY) < 50 && (followingRed == true)) {
+
+  redball.checkRelease();
+
+  if (dist(500, 150, mouseX, mouseY) < 50 && (followingGreen == true)) {
     speedy2 = 0;
     speedx2 = 0
   } else if (dist(750, 600, mouseX, mouseY) < 50 && (followingBlue == true)) {
@@ -245,7 +352,6 @@ function mouseReleased() {
     speedx3 = 0
   }
   followingGreen = false
-  followingRed = false
   followingBlue = false
 
 
