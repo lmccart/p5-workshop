@@ -30,8 +30,9 @@ function detectButtonPress() {
   }
 }
 
-function addFence(lat, lon) {
-  fences.push(new geoFenceCircle(lat, lon, 0.01)); // printmaking
+function addFence(lat, lon, rad) {
+  var _rad = rad || 0.1;
+  fences.push(new geoFenceCircle(lat, lon, _rad));
 }
 
 function checkLocations() {
