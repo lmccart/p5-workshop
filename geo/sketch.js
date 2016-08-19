@@ -33,9 +33,9 @@ function draw() {
   }
   textSize(windowWidth*0.15);
   text("LAT", width / 2, height * 0.32);
-  text(width, width / 2, height * 0.42);
+  text(lat, width / 2, height * 0.42);
   text("LON", width / 2, height * 0.57);
-  text(height, width / 2, height * 0.67);
+  text(lon, width / 2, height * 0.67);
 }
 
 function positionUpdated(position) {
