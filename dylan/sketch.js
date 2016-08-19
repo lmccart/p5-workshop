@@ -16,7 +16,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(980, 1461);
 }
 
 function draw() {
@@ -56,22 +56,24 @@ function draw() {
   text("RUN! GET TO THE FUCKING WATER!", 200, 650);
   image(wavy, random(980), random(1461), 500, 500)
   
-  
     
   } else if (curLocation == 3) {
     // draw view for location 3
-  background(0);
+    background(0);
+      //hole  
   fill(0, 100, random(255), 200);
   ellipse(340, 900, 300, 150);
+
+  //text
   textSize(40);
   textFont("LittleBlueJay")
   fill(0, 100, random(255), 200);
   text("YOU MADE IT, DIVE IN...", 190, 200);
-  image(gun, 0, 0, 150, 150);
   }
 
   // this draws the testing buttons on top of everything
-  drawButtons();
+  checkLocations();
+  //drawButtons();
 }
 
 function mousePressed() {
