@@ -71,6 +71,7 @@ function setup() {
   spotShown = spot1;
   wattShown = watt1;
   pitShown = pit1;
+  seekMu.play();
 }
 
 function draw() {
