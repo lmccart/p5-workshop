@@ -104,7 +104,7 @@ function setup() {
     addFence(39.21521663, -106.93566224); // grassy rock
     addFence(38.21386159, -106.93855183); // church bench
     addFence(39.21376114, -106.93966); // fish bench
-    addFence(39.21365997, -106.9366297); // stone undercover and Congrats
+    addFence(39.21365997, -106.9366297, 0.05); // stone undercover and Congrats
     // addFence(39.21360107, -106.93650356); // photo
     intervalCurrentPosition(positionUpdated, 1000);
   }
@@ -259,8 +259,8 @@ function draw() {
 
 
   // this draws the testing buttons on top of everything
-  checkLocations();
-  // drawButtons();
+  // checkLocations();
+  drawButtons();
 
 }
 
