@@ -100,7 +100,7 @@ function setup() {
     addFence(0, 0); // anywhere else
 
     // replace with your locations here
-    addFence(39.21395044, -106.93592758); // starting point vball slab
+    addFence(39.21395044, -106.93592758, 0.25); // starting point vball slab
     addFence(39.21521663, -106.93566224); // grassy rock
     addFence(38.21386159, -106.93855183); // church bench
     addFence(39.21376114, -106.93966); // fish bench
