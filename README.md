@@ -4,12 +4,12 @@ A one-week workshop taught at Anderson Ranch, August 2016
 
 Explore the creative potential of networked, shareable art in this introduction to coding with p5.js—a platform for making interactive, visual experiences online. Students experiment with creating simple visuals, as well as integrating video, sound, sensors and mobile devices. Tutorials and code samples are balanced with individual reviews and time to work in the studio. This is an excellent initiation into the artistic possibilities of code. [https://www.andersonranch.org/workshop/intro-to-coding-with-p5-js-p1130-2016/](https://www.andersonranch.org/workshop/intro-to-coding-with-p5-js-p1130-2016/)
 
-##Student Work
+## Student Work
 [projects page](https://lmccart.github.io/p5-workshop/)
 
-##Schedule
+## Schedule
 
-###Monday - Hello world
+### Monday - Hello world
 1. __Intro__ Meet and greet, workshop overview, objectives.
 2. __Drawing Instructions__ An exercise inspired by the [Conditional Design group](http://conditionaldesign.org/). Read their [manifesto](http://conditionaldesign.org/manifesto/) and check out the [archive](http://conditionaldesign.org/archive/) of instructions and drawings. Check out [knots](http://conditionaldesign.org/workshops/knots/), [hatching](http://conditionaldesign.org/workshops/hatching/), and [convex city plan](http://conditionaldesign.org/workshops/convex-city-plan/).
 
@@ -40,7 +40,7 @@ Explore the creative potential of networked, shareable art in this introduction 
   * Include one element that changes as you move the mouse.
   
 
-###Tuesday - Play it
+### Tuesday - Play it
 
 0. __Review: Found objects__
 1. Download examples [here](https://github.com/lmccart/p5-workshop/raw/master/02_variables_animation/02_variables_animation.zip).
@@ -64,7 +64,7 @@ Explore the creative potential of networked, shareable art in this introduction 
 7. __Studio: Build games__
 8. __Discussion: FTP__
 
-###Wednesday - Where are you?
+### Wednesday - Where are you?
 
 0. __Tutorial: Logic Review__ Download [logic examples](https://github.com/lmccart/p5-workshop/raw/master/04_logic/04_logic.zip).
  * State variable as counter
@@ -89,21 +89,21 @@ Explore the creative potential of networked, shareable art in this introduction 
  * __Test Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocation.zip)__
  * __Test GPS Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocationGPS.zip)__
 
-###Thursday - Take it further
+### Thursday - Take it further
 
 0. __Studio: Location-based pieces__
  * __Test Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocation.zip)__
  * __Test GPS Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocationGPS.zip)__
 2. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
 
-###Friday - Wrap it up
+### Friday - Wrap it up
 
 0. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
 1. __Discussion: p5 community__
 2. Final review, wrap-up, next steps.
 
 
-##Resources
+## Resources
 
 * [p5js.org](http://p5js.org) - p5.js website, includes library, reference, examples, and tutorials
 * [p5.js forum](https://forum.processing.org/two/) - good place for p5.js programming question
